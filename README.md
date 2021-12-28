@@ -5,6 +5,8 @@ Clyon is a file encryptor Using AES-256-CBC.
 
 - AES-256-CBC
 
+- C:/Data
+
 - ALL drives (except C:)
 
-Version2.0
+Version2.1
