@@ -1,3 +1,5 @@
+# <b><u>THIS REPO IS DEPRECATED.</b></u>
+
 # Clyon
 Clyon is a file encryptor Using AES-256-CBC.
 
